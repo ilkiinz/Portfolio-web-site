@@ -237,7 +237,8 @@ section{
 .service-item {
     text-align: center;
     padding: 2rem;
-    background-color: #fff;
+    background-color: rgb(15, 169, 200);
+    color: white;
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;

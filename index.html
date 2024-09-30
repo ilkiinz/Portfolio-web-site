@@ -1,22 +1,22 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Agahyev Ilkin - Portfolio</title>
+    <title>DevFolio</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
         <nav>
-            <div class="logo">AI</div>
+            <div class="logo">DevFolio</div>
             <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
+                <li><a href="#home" class="active">Home</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#websites">Websites</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#work">Work</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
             <div class="burger">
@@ -28,130 +28,217 @@
     </header>
 
     <main>
-        <section id="home" class="hero">
-            <h1 class="animate-pop-in">Aghayev Ilkin</h1>
-            <p class="animate-pop-in">Front-end || React.js Developer</p>
-            <a href="#contact" class="cta-button animate-pop-in">Get in touch</a>
+        <section id="home">
+            <div class="hero">
+                <h1 class="animate-text">I am Ilkin Aghayev</h1>
+                <p class="animate-text">Front-end || React.js Developer</p>
+            </div>
         </section>
 
-        <section id="about" class="about">
+        <section id="about">
             <h2 class="section-title">About Me</h2>
-            <div class="about-content animate-fade-in">
-                <img src="./myphoto.jpg" alt="John Doe" class="profile-image">
-                <p>I'm a passionate web developer with 5 years of experience creating beautiful and functional websites. I love turning complex problems into simple, elegant solutions.</p>
-            </div>
-        </section>
-
-        <section id="skills" class="skills">
-            <div class="skills-content">
-                <h2 class="section-title">My Skills</h2>
-                <div class="skill-grid">
-                    <div class="skill-item orange animate-slide-up">
-                        <i class="fab fa-html5"></i>
-                        <p>HTML5</p>
-                    </div>
-                    <div class="skill-item dark-blue animate-slide-up">
-                        <i class="fab fa-css3-alt"></i>
-                        <p>CSS3</p>
-                    </div>
-                    <div class="skill-item yellow animate-slide-up">
-                        <i class="fab fa-js"></i>
-                        <p>JavaScript</p>
-                    </div>
-                    <div class="skill-item primary animate-slide-up">
-                        <i class="fab fa-react"></i>
-                        <p>React.js</p>
-                    </div>
-                    <div class="skill-item purple animate-slide-up">
-                        <i class="fab fa-node-js"></i>
-                        <p>Redux Toolkit</p>
-                    </div>
-                    <div class="skill-item info animate-slide-up">
-                        <i class="fas fa-database"></i>
-                        <p>C#</p>
+            <div class="about-content">
+                <img src="./myphoto.jpg" alt="John Doe" class="about-image">
+                <div class="about-text">
+                    <h3>Web Designer & Developer</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare sem sed quam tempus aliquet vitae eget dolor. Proin eu ultrices libero. Curabitur vulputate vestibulum elementum. Suspendisse id neque a nibh mollis blandit.</p>
+                    <div class="skills">
+                        <div class="skill">
+                            <span>HTML</span>
+                            <div class="skill-bar"><div class="skill-level" style="width: 85%"></div></div>
+                        </div>
+                        <div class="skill">
+                            <span>CSS</span>
+                            <div class="skill-bar"><div class="skill-level" style="width: 75%"></div></div>
+                        </div>
+                        <div class="skill">
+                            <span>JavaScript</span>
+                            <div class="skill-bar"><div class="skill-level" style="width: 90%"></div></div>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="projects" class="projects">
-            <h2 class="section-title">My Js Projects</h2>
-            <div class="project-grid">
-                <div class="project-item animate-fade-in">
-                    <img src="./background.jpg" alt="Project 1">
-                    <h3>Project 1</h3>
-                    <p>A responsive website for a local business</p>
-                    <a href="#" class="project-link">View Project</a>
+        <section id="services">
+            <h2 class="section-title">Services</h2>
+            <div class="services-grid">
+                <div class="service-item">
+                    <i class="fas fa-briefcase"></i>
+                    <h3>Web Design</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia, provident vitae! Magni tempora perferendis eum non provident.</p>
                 </div>
-                <div class="project-item animate-fade-in">
-                    <img src="./background.jpg" alt="Project 2">
-                    <h3>Project 2</h3>
-                    <p>An e-commerce platform built with React</p>
-                    <a href="#" class="project-link">View Project</a>
+                <div class="service-item">
+                    <i class="fas fa-list"></i>
+                    <h3>Web Development</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia, provident vitae! Magni tempora perferendis eum non provident.</p>
                 </div>
-                <div class="project-item animate-fade-in">
-                    <img src="./background.jpg" alt="Project 3">
-                    <h3>Project 3</h3>
-                    <p>A real-time chat application using Node.js</p>
-                    <a href="#" class="project-link">View Project</a>
+                <div class="service-item">
+                    <i class="fas fa-chart-bar"></i>
+                    <h3>Photography</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia, provident vitae! Magni tempora perferendis eum non provident.</p>
                 </div>
-            </div>
-        </section>
-
-        <section id="websites" class="websites">
-            <h2 class="section-title">My Website Projects</h2>
-            <div class="website-grid">
-                <div class="website-item animate-slide-in">
-                    <img src="./background.jpg" alt="Website 1">
-                    <h3>Website 1</h3>
-                    <p>A modern portfolio website for a photographer</p>
-                    <a href="#" class="website-link">Visit Website</a>
+                <div class="service-item">
+                    <i class="fas fa-binoculars"></i>
+                    <h3>Responsive Design</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia, provident vitae! Magni tempora perferendis eum non provident.</p>
                 </div>
-                <div class="website-item animate-slide-in">
-                    <img src="./background.jpg" alt="Website 2">
-                    <h3>Website 2</h3>
-                    <p>An online booking system for a local restaurant</p>
-                    <a href="#" class="website-link">Visit Website</a>
+                <div class="service-item">
+                    <i class="fas fa-sun"></i>
+                    <h3>Graphic Design</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia, provident vitae! Magni tempora perferendis eum non provident.</p>
                 </div>
-                <div class="website-item animate-slide-in">
-                    <img src="./background.jpg" alt="Website 3">
-                    <h3>Website 3</h3>
-                    <p>A blog and portfolio site for a travel writer</p>
-                    <a href="#" class="website-link">Visit Website</a>
+                <div class="service-item">
+                    <i class="fas fa-calendar-check"></i>
+                    <h3>Marketing Services</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia, provident vitae! Magni tempora perferendis eum non provident.</p>
                 </div>
             </div>
         </section>
 
-        <section id="contact" class="contact">
-            <h2 class="section-title">Get in Touch</h2>
-            <div class="contact-info animate-fade-in">
-                <div class="contact-item">
-                    <img src="./phone.png" alt="Phone" class="contact-logo">
-                    <p>Phone: +1 (123) 456-7890</p>
+        <section id="resume">
+            <h2 class="section-title">Resume</h2>
+            <div class="resume-content">
+                <div class="resume-section">
+                    <h3>Summary</h3>
+                    <div class="resume-item">
+                        <h4>John Doe</h4>
+                        <p><em>Innovative and deadline-driven Graphic Designer with 3+ years of experience designing and developing user-centered digital/print marketing material from initial concept to final, polished deliverable.</em></p>
+                        <ul>
+                            <li>Portland par 127,Orlando, FL</li>
+                            <li>(123) 456-7891</li>
+                            <li>alice.barkley@example.com</li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="contact-item">
-                    <img src="./instagram.png" alt="Instagram" class="contact-logo">
-                    <a href="https://www.instagram.com/yourusername" target="_blank">Instagram: @yourusername</a>
+                <div class="resume-section">
+                    <h3>Education</h3>
+                    <div class="resume-item">
+                        <h4>Master of Fine Arts &amp; Graphic Design</h4>
+                        <h5>2015 - 2016</h5>
+                        <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
+                        <p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend</p>
+                    </div>
+                    <div class="resume-item">
+                        <h4>Bachelor of Fine Arts &amp; Graphic Design</h4>
+                        <h5>2010 - 2014</h5>
+                        <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
+                        <p>Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius vel ratione eius unde vitae rerum voluptates asperiores voluptatem Earum molestiae consequatur neque etlon sader mart dila</p>
+                    </div>
                 </div>
-                <div class="contact-item">
-                    <img src="./whatsapp.png" alt="WhatsApp" class="contact-logo">
-                    <a href="https://wa.me/1234567890" target="_blank">WhatsApp: +1 (123) 456-7890</a>
+                <div class="resume-section">
+                    <h3>Professional Experience</h3>
+                    <div class="resume-item">
+                        <h4>Senior Graphic Design Specialist</h4>
+                        <h5>2019 - Present</h5>
+                        <p><em>Experion, New York, NY </em></p>
+                        <ul>
+                            <li>Lead in the design, development, and implementation of the graphic, layout, and production communication materials</li>
+                            <li>Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the project. </li>
+                            <li>Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the design</li>
+                            <li>Oversee the efficient use of production project budgets ranging from $2,000 - $25,000</li>
+                        </ul>
+                    </div>
+                    <div class="resume-item">
+                        <h4>Graphic Design Specialist</h4>
+                        <h5>2017 - 2018</h5>
+                        <p><em>Stepping Stone Advertising, New York, NY</em></p>
+                        <ul>
+                            <li>Developed numerous marketing programs (logos, brochures,infographics, presentations, and advertisements).</li>
+                            <li>Managed up to 5 projects or tasks at a given time while under pressure</li>
+                            <li>Recommended and consulted with clients on the most appropriate graphic design</li>
+                            <li>Created 4+ design presentations and proposals a month for clients and account managers</li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="contact-item">
-                    <img src="./linkedin.png" alt="LinkedIn" class="contact-logo">
-                    <a href="https://www.linkedin.com/in/yourusername" target="_blank">LinkedIn: John Doe</a>
+            </div>
+        </section>
+
+        <section id="work">
+            <h2 class="section-title">My Work</h2>
+            <div class="work-grid">
+                <div class="work-item">
+                    <img src="/placeholder.svg?height=300&width=400" alt="Work 1">
+                    <div class="work-info">
+                        <h3>Project Name</h3>
+                        <p>Web Design</p>
+                        <a href="#" class="work-link">View Details</a>
+                    </div>
                 </div>
+                <div class="work-item">
+                    <img src="/placeholder.svg?height=300&width=400" alt="Work 2">
+                    <div class="work-info">
+                        <h3>Project Name</h3>
+                        <p>Web Development</p>
+                        <a href="#" class="work-link">View Details</a>
+                    </div>
+                </div>
+                <div class="work-item">
+                    <img src="/placeholder.svg?height=300&width=400" alt="Work 3">
+                    <div class="work-info">
+                        <h3>Project Name</h3>
+                        <p>Photography</p>
+                        <a href="#" class="work-link">View Details</a>
+                    </div>
+                </div>
+                <div class="work-item">
+                    <img src="/placeholder.svg?height=300&width=400" alt="Work 4">
+                    <div class="work-info">
+                        <h3>Project Name</h3>
+                        <p>Graphic Design</p>
+                        <a href="#" class="work-link">View Details</a>
+                    </div>
+                </div>
+                <div class="work-item">
+                    <img src="/placeholder.svg?height=300&width=400" alt="Work 5">
+                    <div class="work-info">
+                        <h3>Project Name</h3>
+                        <p>Marketing</p>
+                        <a href="#" class="work-link">View Details</a>
+                    </div>
+                </div>
+                <div class="work-item">
+                    <img src="/placeholder.svg?height=300&width=400" alt="Work 6">
+                    <div class="work-info">
+                        <h3>Project Name</h3>
+                        <p>Branding</p>
+                        <a href="#" class="work-link">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2 class="section-title">Contact Me</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Get in Touch</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolorum dolorem soluta quidem expedita aperiam aliquid at. Totam magni ipsum suscipit amet? Autem nemo esse laboriosam ratione nobis mollitia inventore?</p>
+                    <ul class="contact-list">
+                        <li><i class="fas fa-map-marker-alt"></i> 329 WASHINGTON ST BOSTON, MA 02108</li>
+                        <li><i class="fas fa-phone"></i> (617) 557-0089</li>
+                        <li><i class="fas fa-envelope"></i> contact@example.com</li>
+                    </ul>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <input type="text" placeholder="Subject" required>
+                    <textarea placeholder="Message" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
             </div>
         </section>
     </main>
 
     <footer>
-        <div class="social-links">
-            <a href="#" target="_blank"><i class="fab fa-github"></i></a>
-            <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
-            <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
-        </div>
-        <p>&copy; 2023 John Doe. All rights reserved.</p>
+        <p>&copy; 2023 DevFolio. All rights reserved.</p>
     </footer>
 
     <script src="main.js"></script>
